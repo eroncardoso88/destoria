@@ -91,8 +91,8 @@ const Footer: FunctionComponent = function () {
             </div>
             <div {...s.footerLower}>
               <div {...s.policyConditions}>
-                <div>Privacy & Policy</div>
-                <div>Terms & Conditions</div>
+                <div {...s.footerLinks} onClick={() => (window.location.href = "/privacy")}>Privacy Policy</div>
+                <div {...s.footerLinks} onClick={() => (window.location.href = "/tac")}>Terms & Conditions</div>
               </div>
               <div {...s.destoriaDescriptionInline}>
                 © 2021 Destoria, LLC. All Rights Reserved.

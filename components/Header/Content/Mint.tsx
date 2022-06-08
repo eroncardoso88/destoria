@@ -6,7 +6,7 @@ const Mint: FunctionComponent = function () {
   return (
     <div {...s.wrapper}>
       <ul {...s.wrapperMint}>
-        <li {...s.shortItem} onClick={() => window.location.href = `/mint`}>NFT Drops</li>
+        <li {...s.shortItem} onClick={() => window.location.href = `/mint`}>Free Mint</li>
       </ul>
     </div>
   );
